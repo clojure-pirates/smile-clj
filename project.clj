@@ -14,6 +14,11 @@
 [com.github.haifengl/smile-netlib "1.5.1"]
 
 
+                 ;;GUI
+
+                 [halgari/fn-fx "0.4.0"]
+                 [seesaw "1.4.5"]
+
                  [com.cognitect/transit-clj "0.8.300"]
 
                 [com.datomic/datomic-free "0.9.5656"]
@@ -58,6 +63,6 @@
 
 ; [org.clojure/core.typed "0.4.3"]
                  ]
-  :main ^:skip-aot smile-clj.core
+  :main ^:skip-aot smile-clj-dev.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})

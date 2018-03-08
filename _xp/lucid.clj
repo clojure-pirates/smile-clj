@@ -12,3 +12,14 @@
 
 
 (distance [[1 2 ] [1 2 ]] )
+
+
+(java.lang.System/)
+
+(def system java.lang.System)
+
+
+
+(System/getProperty "java.vm.version")
+
+

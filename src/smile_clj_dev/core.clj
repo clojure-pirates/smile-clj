@@ -1,4 +1,4 @@
-(ns smile-clj.core
+(ns smile-clj-dev.core
   (:gen-class))
 
 (defn -main
