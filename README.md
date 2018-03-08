@@ -6,6 +6,14 @@ FIXME: description
 
 Download from http://example.com/FIXME.
 
+
+TODO: Convert this project to a web-server driven project 
+https://github.com/fulcrologic/fulcro
+
+```
+lein new fulcro my-project
+```
+
 ## Usage
 
 FIXME: explanation
