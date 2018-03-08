@@ -1,4 +1,4 @@
-(defproject smile-clj "0.1.0-SNAPSHOT"
+(defproject smile-clj-dev "0.1.0-SNAPSHOT"
   :description "Clojure wrapper for SMILE Machine Learning kit"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
