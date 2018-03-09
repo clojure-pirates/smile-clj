@@ -5,16 +5,13 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.9.0"]
 
-
 ;;smile libraries
-[com.github.haifengl/smile-core "1.5.1"]
+                 [com.github.haifengl/smile-core "1.5.1"]
 
-[com.github.haifengl/smile-plot "1.5.1"]
+                 [com.github.haifengl/smile-plot "1.5.1"]
 
-[com.github.haifengl/smile-netlib "1.5.1"]
-
-
-                 ;; Spirit from zcaudate
+                 [com.github.haifengl/smile-netlib "1.5.1"]
+;; Spirit from zcaudate
 ;                 [zcaudate/spirit.data.atom "0.8.0"]
 ;                 [zcaudate/spirit.data.cache "0.8.0"]
 ;                 [zcaudate/spirit.data.exchange "0.8.0"]
@@ -25,7 +22,7 @@
 ; [zcaudate/spirit "0.8.0"]
 
 
-                 ;; apache spark
+;; apache spark
 ;                 [yieldbot/flambo "0.8.2"]
 
                  ;;GUI
@@ -45,11 +42,7 @@
                  [zcaudate/hara "2.8.2"]
                  [zcaudate/lucid "1.4.4"]
 
-                 [environ "1.1.0"]
-
-
-
-                 [org.onyxplatform/onyx "0.12.7"]
+                 [environ "1.1.0"] [org.onyxplatform/onyx "0.12.7"]
 
 ;; For remote data access - haxl
 ;                 [muse2/muse "0.4.4"]
@@ -61,7 +54,7 @@
 ;; Utility for traversing CLJ(S) data structures
                  [medley "1.0.0"]
 
-; Quickcheck
+;; Quickcheck
                  [org.clojure/test.check "0.10.0-alpha2"]
 
                  [fullcontact/full.async "1.0.0"]
@@ -90,14 +83,12 @@
                  [nilenso/honeysql-postgres "0.2.3"]
 
 ; [org.clojure/core.typed "0.4.3"]
-                 ]
+]
   :main ^:skip-aot smile-clj-dev.core
   :target-path "target/%s"
-  :profiles {
-
-;             :provided
+  :profiles {;             :provided
 ;              {:dependencies
 ;               [[org.apache.spark/spark-core_2.11 "2.2.0"]]}
 
              :uberjar
-              {:aot :all}})
+             {:aot :all}})
