@@ -13,7 +13,7 @@
                  [com.github.haifengl/smile-netlib "1.5.1"]
 ;; Spirit from zcaudate
 ;                 [zcaudate/spirit.data.atom "0.8.0"]
-;                 [zcaudate/spirit.data.cache "0.8.0"]
+;                 [zcaudate{/spirit.data.cache "0.8.0"]
 ;                 [zcaudate/spirit.data.exchange "0.8.0"]
 ;                 [zcaudate/spirit.data.pipeline "0.8.0"]
 ;                 [zcaudate/spirit.data.schema "0.8.0"]
@@ -25,6 +25,7 @@
 ;; apache spark
 ;                 [yieldbot/flambo "0.8.2"]
 
+                 [thinktopic/cortex "0.9.22"]
                  ;;GUI
 
                  [halgari/fn-fx "0.4.0"]
